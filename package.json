@@ -1,9 +1,12 @@
 {
-  "name": "responsiweb3a",
+  "name": "UTS-WEB3A-15102-CINTYA",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://cintyaagusti.github.io/UTS-WEB3A-15102-CINTYA",
   "dependencies": {
+    "boostrap": "^2.0.0",
     "cra-template": "1.0.3",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
@@ -13,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
